@@ -18,8 +18,8 @@ jobs:
           # URL of gitHub public upstream repo
           upstream_repo: https://github.com/yearn/yearn-finance-v3
           # Branch to merge from upstream (defaults to downstream branch)
-          upstream_branch: develop
+          upstream_branch: dev
           # Branch to merge into downstream
-          downstream_branch: develop
+          downstream_branch: dev
           # GitHub Bot token
           token: ${{ secrets.GITHUB_TOKEN }}
