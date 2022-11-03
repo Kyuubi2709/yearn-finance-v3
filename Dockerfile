@@ -4,7 +4,6 @@ RUN apk update
 RUN apk add git
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
-RUN npm install -g npm@8.10.0
 RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
