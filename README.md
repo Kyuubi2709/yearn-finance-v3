@@ -2,6 +2,13 @@
 
 <img src="https://img.shields.io/badge/dynamic/json.svg?style=plastic&color=2096F3&label=locize&query=%24.translatedPercentage&url=https://api.locize.app/badgedata/1c6d6900-5989-49fe-b221-0001423041d2&suffix=%+translated&link=https://www.locize.com" />
 
+## Flux Description
+
+Forked from yearn/yearn-finance-v3. This fork is identical to Yearn's develop branch, barring the updated README to provide context for what commit has been done
+to make it more convenient to be pushed as a docker hub container to https://hub.docker.com/u/runonflux for using it on the Flux Web3 Cloud
+
+1. We added a new workflow called sync-fork.yml to automatically fetch from the upstream to our fork
+
 ## Contributing
 
 Code style follows prettier conventions (`yarn prettier`). Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) spec.
