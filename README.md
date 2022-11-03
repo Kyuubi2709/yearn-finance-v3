@@ -4,7 +4,7 @@
 
 ## Flux Description
 
-Forked from yearn/yearn-finance-v3. This fork is identical to Yearn's develop branch, barring the updated README to provide context for what commit has been done
+This is a fork from yearn/yearn-finance-v3. It is identical to Yearn's develop branch, barring the updated README to provide context for what commit has been done
 to make it more convenient to be pushed as a docker hub container to https://hub.docker.com/u/runonflux for using it on the Flux Web3 Cloud
 
 - We added a new workflow named sync-fork.yml to automatically fetch from the upstream to our fork via a schedule, which runs at 05:30 and 17:30 UTC every day.
